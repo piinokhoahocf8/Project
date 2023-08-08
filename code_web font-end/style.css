@@ -1,0 +1,362 @@
+.container {
+    background-color: #e4d0db63;
+    display:  inline-block ;
+}
+.container li {
+    list-style-type: none;
+}
+.container a {
+    text-decoration: none;
+}
+.container h2,
+            h3,
+          button,
+          a,
+          p{
+    font-family: sans-serif;
+    
+}
+.container ul li a:hover{
+    color: #68a3d7;
+}
+
+.container .showcontact1 span:hover{
+    color: #68a3d7;
+}
+
+
+
+
+/* ----------------------------LOGO-BANNER--------------------------- */
+.header{
+    width: 100%;
+    margin-bottom:200px;
+}
+
+.logo {
+    width: 20%;
+}
+.logo .logo-image{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 100px;
+}
+
+.search{
+    float:left;
+    width: 59%;
+    text-align: center;
+    padding-top: 80px;
+
+}
+.search input[type="text"] {
+    padding: 10px 190px 10px 10px;
+}
+
+.search {
+    position: relative; 
+}
+  
+.search .submit{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 567px;
+    background-color: #D76735;
+    
+}
+.search .submit:hover{
+    background-color:#e4d0db63;
+}
+
+
+
+
+
+
+
+.showcontact {
+    float: right;
+    padding-top: 54px;
+    width: 20%;
+
+}
+
+.contact {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 110%;
+    color: black;
+    font-weight: bold;
+    padding-right: 100px;
+}
+.showcontact img {
+    width: 23px;
+}
+
+
+.showcontact1 img {
+    width: 23px;
+    padding-top: 8px;
+}
+
+.contact2 {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 110%;
+    color: black;
+    font-weight: bold;
+    padding-right: 100px;
+}
+    /* ----------------------------end LOGO-BANNER--------------------------- */
+
+
+    /* -----------------------------menu-Ngang------------------------------- */
+    .menu-ngang {
+        margin-bottom: 20px;
+        padding-left: 145px;
+    padding-right: 100px;
+    }
+    .menu-ngang .menu {
+        background-color: #D76735;
+        /* padding: 30px; */
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+
+        .menu-ngang .menu li{
+            float:left;
+
+        }
+        .menu-ngang .menu li a{
+            padding-left: 100px;
+            color:#DEFAFF;
+            font-weight:bold;
+        }
+
+    /* -----------------------------menu-Ngang-end------------------------------ */
+
+
+
+
+    /* -----------------------------menu-doc------------------------------- */
+    .menu-doc {
+        float: left;
+        margin-right: 10px;
+        margin-left: 145px;
+        border-left: 2px solid #D76735;
+    }
+
+    .category {
+        background-color: #D76735;
+        padding: 10px;
+    }
+
+  .danhmuc {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #E8E6E3;
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-weight: bold;
+    position: relative;
+    
+}
+  
+.icondanhmuc {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0px;
+    left: 12px;
+    z-index: 1;
+}
+
+.menudoc li{
+    color: #28903B;
+    margin-top: 10px;
+}
+
+  .menudoc li a{
+color: rgb(109, 104, 104);
+font-weight: 600;
+font-size: 18px;
+}
+ 
+.slide .slide-hinh img {
+    width: 890px;
+    height: 350px;
+}
+/* -----------------------------end menu-doc------------------------------- */
+
+
+
+
+/* ------------------------sản phẩm mởi--------------------------------- */
+.sanphammoi{
+    padding-left: 145px;
+    padding-right: 100px;
+}
+.sanphammoi .newproduct {
+    margin-top: 30px;
+    background-color: #D76735;
+}
+
+.sanphammoi h2 {
+    
+    text-align: center;
+    
+    color: #E8E6E3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sanphammoi .button{
+    width: 100%;
+    text-align: center;
+}
+
+.sanphammoi .button button{
+    padding: 10px 15px 10px 15px;
+    
+}
+.sanphammoi .button button:hover{
+   color: #D76735;
+
+}
+
+.sanphammoi .images-product ul li {
+    float: left;
+    width: 24%;
+}
+
+.images-product .product li .product1 {
+    border: 1px solid #0000002e;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.product1 .text{
+    color: rgb(17, 0, 255);
+}
+
+.product1 .price{
+    color: red;
+}
+
+/* --------------------------end sản phẩm mới----------------------------- */
+
+
+/* --------------------------sản phẩm bán chạy---------------------- */
+.sanphambanchay{
+    padding-left: 145px;
+    padding-right: 100px;
+}
+.sanphambanchay .newproduct1 {
+    margin-top: 30px;
+    background-color: #D76735;
+}
+
+.sanphambanchay h2 {
+    margin-top: 450px;
+    text-align: center;
+    
+    color: #E8E6E3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.sanphambanchay .images-product1 ul li {
+    float: left;
+    width: 24%;
+}
+
+.images-product1 .product_banchay li .product1_1 {
+    border: 1px solid #0000002e;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.product1_1 .text{
+    color: rgb(17, 0, 255);
+}
+
+.product1_1 .price{
+    color: red;
+}
+
+/* -----------------------end sẩn phẩm bán chạy---------------------------- */
+
+
+/* -----------------------------------footer------------------------------ */
+
+
+
+/* footer */
+.footer {
+    margin-top: 400px;
+    padding-bottom: 150px;
+    background-color: #D76735;
+    width: 100%;
+}
+
+.footer h3{
+    padding-bottom: 20px;
+    color:#DEFAFF
+}
+/* infornation */
+.footer .information {
+    float: left;
+    width: 33%;
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+
+.footer .information p{
+    font-size: 15px;
+    color: #DEFAFF;
+}
+.footer .information p b{
+    font-weight: 600;
+}
+/* about */
+.footer .about ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer .about li{
+    padding-bottom: 15px;
+}
+
+.footer .about ul li a.service{
+    font-size: 14px;
+    color:#DEFAFF;
+}
+
+.footer .about {
+    float: left;
+    width: 33%;
+    padding-top: 30px;
+    padding-left: 200px;
+}  
+  
+/* contact */
+.footer .contacts {
+    
+    text-align: center;
+    padding-top: 30px ;
+}
+
+.footer .contacts img {
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+/* ----------------------------------end footer------------------------------ */
