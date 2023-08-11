@@ -1,7 +1,7 @@
-/* html{
+html{
     
     background-color: #e4d0db63;
-} */
+}
 .container {
     width: 100%;
     
@@ -319,11 +319,9 @@ font-size: 18px;
 .introduce  p{
    font-weight: bold;
     padding-top: 20px;
-    
-}
-.introduce p, span{
     color: #DEFAFF;
 }
+
 
 .image-freeship {  
     margin: 40px 20px 40px 40px;
@@ -339,7 +337,14 @@ font-size: 18px;
     float: left;
     margin: 40px 20px 40px 10px;
 }
+.content-freeship {
+    color:#DEFAFF;
+}
+.content-return {
+    color:#DEFAFF;
+}
 .content-support {
+    color:#DEFAFF;
     padding-top: 1px;
 }
 
