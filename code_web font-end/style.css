@@ -25,9 +25,7 @@ html{
     color: #68a3d7;
 }
 
-.container .showcontact1 span:hover{
-    color: #68a3d7;
-}
+
 
 
 
@@ -38,19 +36,16 @@ html{
     margin-bottom:200px;
 }
 
-.logo {
-        
-}
 .logo .logo-image{
     width: 200px;
     height: auto;
     float: left;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
 .search{
     float:left;
-    width: 59%;
+    width: 55%;
     text-align: center;
     padding-top: 80px;
 
@@ -68,7 +63,7 @@ html{
     height: 30px;
     position: absolute;
     bottom: 5px;
-    left: 567px;
+    left: 540px;
     background-color: #D76735;
     
 }
@@ -77,44 +72,47 @@ html{
 }
 
 
-
-
-
-
-
 .showcontact {
     float: right;
     padding-top: 54px;
-    width: 20%;
-
+    width: 25%;
+    height: 145px;
+}
+.showcontact span{
+    font-style: italic;
+}
+.showcontact1 {
+    float: left;
+    padding-right: 40px;
+    
+}
+.iconcontact1 {
+    float: left;
+    margin-top: 21px;
+    background-color: #D76735;
+    border: 1px solid #D76735;
+}
+.textcontact1 {
+    padding-left: 50px;
+}
+.textcontact1 p{
+        margin-top: 25px;
+        margin-bottom: 0px;
+}
+.iconcontact2 {
+    float: left;
+    margin-top: -5px;
+    margin-right: 10px;
+    background-color: #D76735;
+    border: 1px solid #D76735;
 }
 
-.contact {
-    margin-left: 10px;
-    text-align: center;
-    font-size: 110%;
-    color: black;
-    font-weight: bold;
-    padding-right: 100px;
-}
-.showcontact img {
-    width: 23px;
+.textcontact2 p{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    
 }
 
-
-.showcontact1 img {
-    width: 23px;
-    padding-top: 8px;
-}
-
-.contact2 {
-    margin-left: 10px;
-    text-align: center;
-    font-size: 110%;
-    color: black;
-    font-weight: bold;
-    padding-right: 100px;
-}
     /* ----------------------------end LOGO-BANNER--------------------------- */
 
 
