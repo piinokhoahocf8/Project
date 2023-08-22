@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="../javascript/owl.carousel.min.js"></script>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function() {
+
+            $("#owl-demo").owlCarousel({
+
+                navigation: true, // Show next and prev buttons
+                navText: ["<img src='img/prev.png' class='prev'>", "<img src='img/next.png' class='next'>"],
+                loop: true,
+                smartSpeed: 800,
+                dots: false,
+                slidespeed: 100,
+
+                responsive: {
+
+                    1300: {
+                        items: 1
+                    }
+                }
+            });
+
+        });
+    </script>
+
+
+    <div class="container">
+        <!-- /* ----------------------------LOGO-BANNER--------------------------- */ -->
+        <div class="header">
+
+            <div class="logo">
+                <img class="logo-image" src="../img/logo-removebg-preview.png" alt="">
+            </div>
+
+            <div class="search">
+                <input type="text" placeholder="Từ khóa tìm kiếm...">
+                <button class="submit" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+
+
+            <div class="showcontact">
+                <div class="showcontact1">
+                    <div class="iconcontact1">
+                        <a href="/product"><img src="../img/iconbagshopping.png" alt=""></a>
+                    </div>
+                    <div class="textcontact1">
+                        <p>Giỏ hàng</p>
+                        <span>0 sản phẩm</span>
+                    </div>
+                </div>
+                <div class="showcontact2">
+                    <div class="iconcontact2">
+                        <a href="../user/login.html"><img src="../img/iconuser.png" alt=""></a>
+                    </div>
+                    <div class="textcontact2">
+                        <p>Tài khoản</p>
+                        <span>đơn hàng</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* ----------------------------end LOGO-BANNER--------------------------- */ -->
+
+
+
+
+        <!-- /* -----------------------------menu-Ngang------------------------------- */ -->
+
+        <div class="menu-ngang">
+            <ul class="menu">
+                <li><a href="../index.html">TRANG CHỦ</a></li>
+                <li><a href="./introduce.html">GIỚI THIỆU</a></li>
+                <li><a href="./product.html">SẢN PHẨM</a></li>
+                <li><a href="./sale.html">SALE</a></li>
+                <li><a href="./event.html">SỰ KIỆN</a></li>
+                <li><a href="./contact.html">LIÊN HỆ</a> </li>
+
+            </ul>
+        </div>
+        <!-- /* -----------------------------end menu-Ngang------------------------------- */ -->
+
+
+        <!-- /* -----------------------------main introduce------------------------------- */ -->
+        <div class="pagecontact">
+            <div class="contact-title">
+                <h2>
+                    <span>LIÊN HỆ</span>
+                </h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <div>
+                        <p><strong>CÔNG TY TNHH 1 THÀNH VIÊN</strong></p>
+                    </div>
+                    <div>
+                        <p><strong>Phone:</strong> 0869301683</p>
+                    </div>
+                    <div>
+                        <p><strong>Address:</strong> No 90 Le Sat Street - Tan Quy Ward - Tan Phu District - Ho Chi Minh City</p>
+                    </div>
+                    <div>
+                        <p><strong>Email:</strong> phima2001@gmail.com; phima2001@hotmail.com</p>
+                    </div>
+                    <div>
+                        <p><strong>Facebook:</strong> https://www.facebook.com/2handvirus/</p>
+                    </div>
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.248540711545!2d106.61660637476648!3d10.792266658901946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752c0795fe1a4b%3A0x5af0284c52b4658!2zOTAgTMOqIFPDoXQsIFTDom4gUXXDvSwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1692731321533!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="contact-right">
+                    <form action="action_page.php">
+                        <div class="contact-form">
+                            <i class="fa fa-user"></i><input type="text" id="name" name="name" placeholder="Họ và tên..">
+                        </div>
+                        <div class="contact-form">
+                            <i class="fa fa-phone"></i><input type="text" id="phone" name="phone" placeholder="Điện thoại..">
+                        </div>
+                        <div class="contact-form">
+                            <i class="fa fa-envelope"></i><input type="text" id="email" name="email" placeholder="Email..">
+                        </div>
+                        <div class="contact-form">
+                            <i class="fa fa-question"></i><textarea id="subject" name="subject" placeholder="Nội dung.." style="height:200px"></textarea>
+                        </div>
+                        <div class="contact-form">
+                            <input type="submit" value="Gửi ngay">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- /* -----------------------------end main introduce------------------------------- */ -->
+
+
+        <!-- ----------------------------Footer-------------------------------- -->
+        <div class="footer">
+            <div class="information">
+                <h3>CÔNG TY TNHH 1 THÀNH VIÊN</h3>
+                <p><b>Địa chỉ</b>: 90 Lê Sát, Phường Tân Qúy, Quận Tân Phú, TP.HCM</p>
+                <p><b>Điện Thoại</b>:0869301683</p>
+                <p><b>Email</b>:phima2001@gmail.com; phima2001@hotmail.com</p>
+                <p><b>Facebook</b>:https://www.facebook.com/2handvirus/</p>
+            </div>
+
+            <div class="about">
+                <h3>CHÍNH SÁCH</h3>
+                <ul>
+                    <li><a class="policy" href="#">Điều Khoản Dịch Vụ</a></li>
+                    <li><a class="policy" href="#">Chính Sách Bảo Mật</a></li>
+                    <li><a class="policy" href="#">Chính Sách Vận Chuyển</a></li>
+                    <li><a class="policy" href="#">Chính Sách Đổi Trả</a></li>
+                    <li><a class="policy" href="#">Chính Sách Thanh Toán</a></li>
+                </ul>
+
+
+
+
+
+            </div>
+
+            <div class="contacts">
+                <h3>KẾT NỐI VỚI CHÚNG TÔI</h3>
+                <a href="tel:0869301683"><img src="../img/phone.png" alt=""></a>
+                <a href="#"><img src="../img/zalo.png" alt=""></a>
+                <a href="https://www.facebook.com/PiiNo442001"><img src="../img/messenger.png" alt=""></a>
+            </div>
+
+        </div>
+
+        <!------------------------- end footer----------------------------------- -->
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
